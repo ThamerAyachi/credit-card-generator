@@ -1,0 +1,39 @@
+/** main style **/
+
+.text-align-center{
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+  }
+  ._card{
+      background: url(/img/credit-cards/Credit-Card-1.png); 
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 200px;
+  }
+  
+  .name{
+    position: relative;
+    top: 150px;
+    left: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .date{
+    position: relative;
+    top: 150px;
+    left: 130px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .code{
+    position: relative; 
+    top: 60px;
+    left: 10px;
+    display: block;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
